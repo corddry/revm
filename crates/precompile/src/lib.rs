@@ -78,6 +78,7 @@ impl Precompiles {
                 secp256k1::ECRECOVER,
                 hash::SHA256,
                 hash::RIPEMD160,
+                hash::SHA512,
                 identity::FUN,
             ]);
             Box::new(precompiles)
