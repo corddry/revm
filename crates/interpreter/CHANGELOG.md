@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1](https://github.com/bluealloy/revm/compare/revm-interpreter-v3.1.0...revm-interpreter-v3.1.1) - 2024-03-04
+
+### Other
+- *(interpreter)* use already-computed sign in SAR ([#1147](https://github.com/bluealloy/revm/pull/1147))
+- *(interpreter)* factor out jump logic ([#1146](https://github.com/bluealloy/revm/pull/1146))
+- *(interpreter)* evaluate instruction table constructor at compile time ([#1140](https://github.com/bluealloy/revm/pull/1140))
+
 ## [3.1.0](https://github.com/bluealloy/revm/compare/revm-interpreter-v3.0.0...revm-interpreter-v3.1.0) - 2024-02-22
 
 ### Added
